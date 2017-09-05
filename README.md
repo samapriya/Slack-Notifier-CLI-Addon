@@ -1,4 +1,7 @@
 # Slack Notifier-CLI Addon
+
+[![DOI](https://zenodo.org/badge/102524939.svg)](https://zenodo.org/badge/latestdoi/102524939)
+
 For those working with team collaborations and notifications slack is a quick alternative to group emails and chats. The need for a notification tool was also met with the use of the API which could be neatly tied up in clients. This CLI add-on was developed simply to function as an additional tool which can reside in an application folder and which can be called upon within a program and act as a notifier for events and updates. The tool combines simple methods in building channels and application bots and uses backends to send messages, files and to handle message history. The notifier was based on a comparison between available methods in tools such as pushbullet, pushover among a few for being able to have cross platform compatibility. Though this was designed as a means for getting process update for specific tools this CLI is essentially a plug and play into any system which can talk and pass arguments to this tool. In time additional and more refined implementation control might be included to handle specific functions.
 
 ## Table of contents
