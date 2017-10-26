@@ -81,8 +81,8 @@ def slackdelete():
     else:
         print("Enter your Slack-Main Token")
         tk=getpass.getpass()
-    subprocess.call('slack-cleaner --token '+tk+" --message --channel general --bot --perform --rate 1")
-    subprocess.call('slack-cleaner --token '+tk+" --file --channel general --bot --perform --rate 1")
+    subprocess.call('slack-cleaner --token '+tk+" --message --channel general --bot --perform --rate 1",shell=True)
+    subprocess.call('slack-cleaner --token '+tk+" --file --channel general --bot --perform --rate 1",shell=True)
 def slackdelete_from_parser(args):
     slackdelete()
 
